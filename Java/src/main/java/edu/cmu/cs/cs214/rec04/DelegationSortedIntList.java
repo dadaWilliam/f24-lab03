@@ -23,7 +23,7 @@ public class DelegationSortedIntList implements IntegerList {
 
     @Override
     public boolean add(int num) {
-        totalAdded++;
+        this.totalAdded++;
         return sortedIntList.add(num);
         // // TODO Auto-generated method stub
         // throw new UnsupportedOperationException("Unimplemented method 'add'");
